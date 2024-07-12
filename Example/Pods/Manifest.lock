@@ -1,0 +1,16 @@
+PODS:
+  - NepaliIOSSamayaPicker (0.1.0)
+
+DEPENDENCIES:
+  - NepaliIOSSamayaPicker (from `../`)
+
+EXTERNAL SOURCES:
+  NepaliIOSSamayaPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NepaliIOSSamayaPicker: f8766ec162db6714ae0c34fa4a9fbc0142e2f77b
+
+PODFILE CHECKSUM: 03c8fa0708b21491873c7407cde4790b0e9d2234
+
+COCOAPODS: 1.15.2

@@ -1,0 +1,22 @@
+{
+  "name": "NepaliIOSSamayaPicker",
+  "version": "0.1.0",
+  "summary": "A short description of NepaliIOSSamayaPicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/junkeritechnepal@gmail.com/NepaliIOSSamayaPicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "junkeritechnepal@gmail.com": "swornim.shah@f1soft.com"
+  },
+  "source": {
+    "git": "https://github.com/junkeritechnepal@gmail.com/NepaliIOSSamayaPicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "NepaliIOSSamayaPicker/Classes/**/*"
+}

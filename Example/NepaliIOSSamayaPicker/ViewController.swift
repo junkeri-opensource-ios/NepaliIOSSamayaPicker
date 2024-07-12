@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import NepaliIOSSamayaPicker
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let picker = NepaliIOSSamayaVc()
+        navigationController?.pushViewController(picker, animated: true)
     }
 
     override func didReceiveMemoryWarning() {

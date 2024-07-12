@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05B7F59926FF3DDFC3DD808F8C4FD544 /* NepaliIOSSamayaVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F121F4CB287DD109D4F72DA55A145D3 /* NepaliIOSSamayaVc.swift */; };
+		53E9F1A4A7E9A46BDA2CB053F208D4BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		56BC75440D63642856A81018351E16CD /* Pods-NepaliIOSSamayaPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89B91407D411C79E230DF79A4B1B5549 /* Pods-NepaliIOSSamayaPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FAB7BD2B108683B96D2576620790C3A /* Pods-NepaliIOSSamayaPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B713033809A27D3AB149AED6774FADB1 /* Pods-NepaliIOSSamayaPicker_Example-dummy.m */; };
+		862F4B769AEF82D1A88E87B5E4686854 /* Pods-NepaliIOSSamayaPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F735107538DE3E925BE6F0C6DB107F8 /* Pods-NepaliIOSSamayaPicker_Tests-dummy.m */; };
+		9814CC9E4DBE4B53504BC5E9711B284E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A372AAA12C41191100CB1C0D /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372AAA02C41191100CB1C0D /* DataSource.swift */; };
+		A372AAA32C41199000CB1C0D /* NepaliDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372AAA22C41198F00CB1C0D /* NepaliDatePickerView.swift */; };
+		A372AAA52C411B3C00CB1C0D /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372AAA42C411B3C00CB1C0D /* TypeAlias.swift */; };
+		A372AAA82C411D5700CB1C0D /* DatePickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372AAA72C411D5700CB1C0D /* DatePickerModel.swift */; };
+		A372AAAA2C411DE200CB1C0D /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372AAA92C411DE200CB1C0D /* DateExt.swift */; };
+		A372AAAD2C411E7E00CB1C0D /* NepaliDateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372AAAC2C411E7E00CB1C0D /* NepaliDateModel.swift */; };
+		CE4016AB2062C66B663BADFA061BA7BB /* NepaliIOSSamayaPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 274288BBE1F9DC82DB0C9ED42D0E528B /* NepaliIOSSamayaPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D163F9285E1D371D925A0B3014DF8436 /* NepaliIOSSamayaPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A16C4C99D73A017B003561768A09E6 /* NepaliIOSSamayaPicker-dummy.m */; };
+		F230F7B7D95F011A055541547A4FA105 /* Pods-NepaliIOSSamayaPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CDAAC5973A2621ADA0C72D590580EA /* Pods-NepaliIOSSamayaPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCB5B2B80DF6315371BC00F90248EE9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		499F8188BA95A3F26F2DBB9DD11DC22C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54973B5404F8A17786841A92978FC8BF;
+			remoteInfo = "Pods-NepaliIOSSamayaPicker_Example";
+		};
+		7F331DFAB9DB6F85372FEBB9EAEF537B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE5DF0033565A77BEAD9DDD42892C838;
+			remoteInfo = NepaliIOSSamayaPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03DD4DA9B66D96DEB9EE3FD6DF474292 /* NepaliIOSSamayaPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NepaliIOSSamayaPicker.modulemap; sourceTree = "<group>"; };
+		0542FD9D2AF286E37BCE37781A38177D /* Pods-NepaliIOSSamayaPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NepaliIOSSamayaPicker_Tests.modulemap"; sourceTree = "<group>"; };
+		0E7B24BB835DA24AB9099BB750D1743B /* Pods-NepaliIOSSamayaPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NepaliIOSSamayaPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1D31542C12C966004E5B2F509925907C /* Pods-NepaliIOSSamayaPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NepaliIOSSamayaPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2050E57E618E5B9EC68D2A7A5BA1BFD3 /* Pods-NepaliIOSSamayaPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NepaliIOSSamayaPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2504D10A7B8267FF4D4FE6C34C90A01A /* Pods-NepaliIOSSamayaPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NepaliIOSSamayaPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		274288BBE1F9DC82DB0C9ED42D0E528B /* NepaliIOSSamayaPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NepaliIOSSamayaPicker-umbrella.h"; sourceTree = "<group>"; };
+		2983C6606245D373BE51D17489A3BAF4 /* Pods-NepaliIOSSamayaPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NepaliIOSSamayaPicker_Example.modulemap"; sourceTree = "<group>"; };
+		3830E1A8FF837EE93EAB5CF4B64C1619 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		45A16C4C99D73A017B003561768A09E6 /* NepaliIOSSamayaPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NepaliIOSSamayaPicker-dummy.m"; sourceTree = "<group>"; };
+		4FB42252CD6865059E4C892A50BB6224 /* Pods-NepaliIOSSamayaPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NepaliIOSSamayaPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		52CDAAC5973A2621ADA0C72D590580EA /* Pods-NepaliIOSSamayaPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NepaliIOSSamayaPicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		56B4FF0825BC4B22A7D98BF83D9DB42C /* NepaliIOSSamayaPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NepaliIOSSamayaPicker.release.xcconfig; sourceTree = "<group>"; };
+		5F121F4CB287DD109D4F72DA55A145D3 /* NepaliIOSSamayaVc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NepaliIOSSamayaVc.swift; path = NepaliIOSSamayaPicker/Classes/NepaliIOSSamayaVc.swift; sourceTree = "<group>"; };
+		5F735107538DE3E925BE6F0C6DB107F8 /* Pods-NepaliIOSSamayaPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NepaliIOSSamayaPicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		616CAEF376DF82E7E3063167F4554306 /* NepaliIOSSamayaPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NepaliIOSSamayaPicker-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73BA3372A2E601E7186E55CEF7613966 /* NepaliIOSSamayaPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NepaliIOSSamayaPicker-prefix.pch"; sourceTree = "<group>"; };
+		8557CE3DB5194B07A22ECCF022469F52 /* Pods-NepaliIOSSamayaPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NepaliIOSSamayaPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		89B91407D411C79E230DF79A4B1B5549 /* Pods-NepaliIOSSamayaPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NepaliIOSSamayaPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A372AAA02C41191100CB1C0D /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		A372AAA22C41198F00CB1C0D /* NepaliDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NepaliDatePickerView.swift; sourceTree = "<group>"; };
+		A372AAA42C411B3C00CB1C0D /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
+		A372AAA72C411D5700CB1C0D /* DatePickerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerModel.swift; sourceTree = "<group>"; };
+		A372AAA92C411DE200CB1C0D /* DateExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
+		A372AAAC2C411E7E00CB1C0D /* NepaliDateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NepaliDateModel.swift; sourceTree = "<group>"; };
+		A543ED11C6F29A3453AC526BF092C70C /* Pods-NepaliIOSSamayaPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NepaliIOSSamayaPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B31A1AB6FBF2AFE2CF07020E7844D08D /* NepaliIOSSamayaPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NepaliIOSSamayaPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B713033809A27D3AB149AED6774FADB1 /* Pods-NepaliIOSSamayaPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NepaliIOSSamayaPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		BDD6B5F34A1CF5C80E4EDE4AB2D20F86 /* Pods-NepaliIOSSamayaPicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NepaliIOSSamayaPicker_Example-Info.plist"; sourceTree = "<group>"; };
+		BFBA798E86B1D18C3FB524B71DD724E3 /* Pods-NepaliIOSSamayaPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NepaliIOSSamayaPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CE3BF0003F3E37BC100DF84D1946ECC7 /* Pods-NepaliIOSSamayaPicker_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NepaliIOSSamayaPicker_Example"; path = Pods_NepaliIOSSamayaPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE72DDF95D2D97A0755856354103C679 /* NepaliIOSSamayaPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NepaliIOSSamayaPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D15B3161CAEB0CA74C7C6DCF4D7D1117 /* Pods-NepaliIOSSamayaPicker_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NepaliIOSSamayaPicker_Tests"; path = Pods_NepaliIOSSamayaPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73C40ED68A569E29B7EAB0D93BC4B03 /* NepaliIOSSamayaPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NepaliIOSSamayaPicker.debug.xcconfig; sourceTree = "<group>"; };
+		D7B49A866CEEDF2102D11088F984D5FF /* Pods-NepaliIOSSamayaPicker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NepaliIOSSamayaPicker_Tests-Info.plist"; sourceTree = "<group>"; };
+		D7B7C2F5525C97FD842E67C25603E9BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EB28449C0853081003E7D3A74096DE8F /* Pods-NepaliIOSSamayaPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NepaliIOSSamayaPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75A46819F472FF8B40A7BA19B9A6CB21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E9F1A4A7E9A46BDA2CB053F208D4BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC620BA02C6BBE40E3B92C28EBF96CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB5B2B80DF6315371BC00F90248EE9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E41F243F344C36FC176794CC24EC7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9814CC9E4DBE4B53504BC5E9711B284E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C99D832545F0050607751B9938B03DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03DD4DA9B66D96DEB9EE3FD6DF474292 /* NepaliIOSSamayaPicker.modulemap */,
+				45A16C4C99D73A017B003561768A09E6 /* NepaliIOSSamayaPicker-dummy.m */,
+				616CAEF376DF82E7E3063167F4554306 /* NepaliIOSSamayaPicker-Info.plist */,
+				73BA3372A2E601E7186E55CEF7613966 /* NepaliIOSSamayaPicker-prefix.pch */,
+				274288BBE1F9DC82DB0C9ED42D0E528B /* NepaliIOSSamayaPicker-umbrella.h */,
+				D73C40ED68A569E29B7EAB0D93BC4B03 /* NepaliIOSSamayaPicker.debug.xcconfig */,
+				56B4FF0825BC4B22A7D98BF83D9DB42C /* NepaliIOSSamayaPicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NepaliIOSSamayaPicker";
+			sourceTree = "<group>";
+		};
+		0D091E3ACCBE920F9E891A6EC62175C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B31A1AB6FBF2AFE2CF07020E7844D08D /* NepaliIOSSamayaPicker.framework */,
+				CE3BF0003F3E37BC100DF84D1946ECC7 /* Pods-NepaliIOSSamayaPicker_Example */,
+				D15B3161CAEB0CA74C7C6DCF4D7D1117 /* Pods-NepaliIOSSamayaPicker_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		645F9409B23DF691DEF8182AD993501B /* Pods-NepaliIOSSamayaPicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0542FD9D2AF286E37BCE37781A38177D /* Pods-NepaliIOSSamayaPicker_Tests.modulemap */,
+				A543ED11C6F29A3453AC526BF092C70C /* Pods-NepaliIOSSamayaPicker_Tests-acknowledgements.markdown */,
+				BFBA798E86B1D18C3FB524B71DD724E3 /* Pods-NepaliIOSSamayaPicker_Tests-acknowledgements.plist */,
+				5F735107538DE3E925BE6F0C6DB107F8 /* Pods-NepaliIOSSamayaPicker_Tests-dummy.m */,
+				D7B49A866CEEDF2102D11088F984D5FF /* Pods-NepaliIOSSamayaPicker_Tests-Info.plist */,
+				89B91407D411C79E230DF79A4B1B5549 /* Pods-NepaliIOSSamayaPicker_Tests-umbrella.h */,
+				1D31542C12C966004E5B2F509925907C /* Pods-NepaliIOSSamayaPicker_Tests.debug.xcconfig */,
+				4FB42252CD6865059E4C892A50BB6224 /* Pods-NepaliIOSSamayaPicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-NepaliIOSSamayaPicker_Tests";
+			path = "Target Support Files/Pods-NepaliIOSSamayaPicker_Tests";
+			sourceTree = "<group>";
+		};
+		8F15A66ABB2C435854B1FCA07EC3A0F9 /* NepaliIOSSamayaPicker */ = {
+			isa = PBXGroup;
+			children = (
+				A372AAA62C411B9100CB1C0D /* Views */,
+				A372AA9F2C4118F900CB1C0D /* Core */,
+				5F121F4CB287DD109D4F72DA55A145D3 /* NepaliIOSSamayaVc.swift */,
+				B3B37C585C018198B1582D1E7ADD7895 /* Pod */,
+				0C99D832545F0050607751B9938B03DC /* Support Files */,
+			);
+			name = NepaliIOSSamayaPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		963BFB87D3CE466A2F0AF73360575AFD /* Pods-NepaliIOSSamayaPicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2983C6606245D373BE51D17489A3BAF4 /* Pods-NepaliIOSSamayaPicker_Example.modulemap */,
+				EB28449C0853081003E7D3A74096DE8F /* Pods-NepaliIOSSamayaPicker_Example-acknowledgements.markdown */,
+				2504D10A7B8267FF4D4FE6C34C90A01A /* Pods-NepaliIOSSamayaPicker_Example-acknowledgements.plist */,
+				B713033809A27D3AB149AED6774FADB1 /* Pods-NepaliIOSSamayaPicker_Example-dummy.m */,
+				2050E57E618E5B9EC68D2A7A5BA1BFD3 /* Pods-NepaliIOSSamayaPicker_Example-frameworks.sh */,
+				BDD6B5F34A1CF5C80E4EDE4AB2D20F86 /* Pods-NepaliIOSSamayaPicker_Example-Info.plist */,
+				52CDAAC5973A2621ADA0C72D590580EA /* Pods-NepaliIOSSamayaPicker_Example-umbrella.h */,
+				0E7B24BB835DA24AB9099BB750D1743B /* Pods-NepaliIOSSamayaPicker_Example.debug.xcconfig */,
+				8557CE3DB5194B07A22ECCF022469F52 /* Pods-NepaliIOSSamayaPicker_Example.release.xcconfig */,
+			);
+			name = "Pods-NepaliIOSSamayaPicker_Example";
+			path = "Target Support Files/Pods-NepaliIOSSamayaPicker_Example";
+			sourceTree = "<group>";
+		};
+		A372AA9F2C4118F900CB1C0D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A372AAAB2C411E7400CB1C0D /* Model */,
+				A372AAA02C41191100CB1C0D /* DataSource.swift */,
+				A372AAA42C411B3C00CB1C0D /* TypeAlias.swift */,
+				A372AAA72C411D5700CB1C0D /* DatePickerModel.swift */,
+				A372AAA92C411DE200CB1C0D /* DateExt.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A372AAA62C411B9100CB1C0D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A372AAA22C41198F00CB1C0D /* NepaliDatePickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A372AAAB2C411E7400CB1C0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A372AAAC2C411E7E00CB1C0D /* NepaliDateModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3B37C585C018198B1582D1E7ADD7895 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D7B7C2F5525C97FD842E67C25603E9BD /* LICENSE */,
+				CE72DDF95D2D97A0755856354103C679 /* NepaliIOSSamayaPicker.podspec */,
+				3830E1A8FF837EE93EAB5CF4B64C1619 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BD388B83000318AA82F4A339BE314E78 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				963BFB87D3CE466A2F0AF73360575AFD /* Pods-NepaliIOSSamayaPicker_Example */,
+				645F9409B23DF691DEF8182AD993501B /* Pods-NepaliIOSSamayaPicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D215F1B775BA869CAFB7BBCA661AE90E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0D091E3ACCBE920F9E891A6EC62175C4 /* Products */,
+				BD388B83000318AA82F4A339BE314E78 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D215F1B775BA869CAFB7BBCA661AE90E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F15A66ABB2C435854B1FCA07EC3A0F9 /* NepaliIOSSamayaPicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19B8D2B9ACC44BD4A5C9CEE19B102CBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BC75440D63642856A81018351E16CD /* Pods-NepaliIOSSamayaPicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7EE5D79482FD45DE0B6720DDAE83AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4016AB2062C66B663BADFA061BA7BB /* NepaliIOSSamayaPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F87994E9AD7771EBA7C63435E0428BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F230F7B7D95F011A055541547A4FA105 /* Pods-NepaliIOSSamayaPicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1FC009C18CE6D61B4923183471D5004C /* Pods-NepaliIOSSamayaPicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 613606C19A540D2EB4A5FC429D6B2EBD /* Build configuration list for PBXNativeTarget "Pods-NepaliIOSSamayaPicker_Tests" */;
+			buildPhases = (
+				19B8D2B9ACC44BD4A5C9CEE19B102CBA /* Headers */,
+				AA0B21B8F702A52149652E3CE9FAAAF7 /* Sources */,
+				A5E41F243F344C36FC176794CC24EC7A /* Frameworks */,
+				B236D012063CBF45F539EEC21002BBA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FF450E160B56B65C6F91768B54E0A00 /* PBXTargetDependency */,
+			);
+			name = "Pods-NepaliIOSSamayaPicker_Tests";
+			productName = Pods_NepaliIOSSamayaPicker_Tests;
+			productReference = D15B3161CAEB0CA74C7C6DCF4D7D1117 /* Pods-NepaliIOSSamayaPicker_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		54973B5404F8A17786841A92978FC8BF /* Pods-NepaliIOSSamayaPicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011214248782517E767A2A0B56D64ECD /* Build configuration list for PBXNativeTarget "Pods-NepaliIOSSamayaPicker_Example" */;
+			buildPhases = (
+				8F87994E9AD7771EBA7C63435E0428BA /* Headers */,
+				A526BA2E7CFF1BDD7C15BAFFEA2FD123 /* Sources */,
+				75A46819F472FF8B40A7BA19B9A6CB21 /* Frameworks */,
+				0162A007C8573C1FA1057DA49A7E1D58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9021498D0648FE79784B98AC00366290 /* PBXTargetDependency */,
+			);
+			name = "Pods-NepaliIOSSamayaPicker_Example";
+			productName = Pods_NepaliIOSSamayaPicker_Example;
+			productReference = CE3BF0003F3E37BC100DF84D1946ECC7 /* Pods-NepaliIOSSamayaPicker_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE5DF0033565A77BEAD9DDD42892C838 /* NepaliIOSSamayaPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C2A993A5D17FC5F7E161519D8012A6F /* Build configuration list for PBXNativeTarget "NepaliIOSSamayaPicker" */;
+			buildPhases = (
+				5E7EE5D79482FD45DE0B6720DDAE83AC /* Headers */,
+				9DB9BD8EC7CB78660140D6319F62E2BA /* Sources */,
+				8FC620BA02C6BBE40E3B92C28EBF96CA /* Frameworks */,
+				57844BEBD96266BAC7D7D815AC0BB6E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NepaliIOSSamayaPicker;
+			productName = NepaliIOSSamayaPicker;
+			productReference = B31A1AB6FBF2AFE2CF07020E7844D08D /* NepaliIOSSamayaPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0D091E3ACCBE920F9E891A6EC62175C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE5DF0033565A77BEAD9DDD42892C838 /* NepaliIOSSamayaPicker */,
+				54973B5404F8A17786841A92978FC8BF /* Pods-NepaliIOSSamayaPicker_Example */,
+				1FC009C18CE6D61B4923183471D5004C /* Pods-NepaliIOSSamayaPicker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0162A007C8573C1FA1057DA49A7E1D58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57844BEBD96266BAC7D7D815AC0BB6E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B236D012063CBF45F539EEC21002BBA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DB9BD8EC7CB78660140D6319F62E2BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A372AAA12C41191100CB1C0D /* DataSource.swift in Sources */,
+				A372AAA32C41199000CB1C0D /* NepaliDatePickerView.swift in Sources */,
+				A372AAAD2C411E7E00CB1C0D /* NepaliDateModel.swift in Sources */,
+				A372AAAA2C411DE200CB1C0D /* DateExt.swift in Sources */,
+				D163F9285E1D371D925A0B3014DF8436 /* NepaliIOSSamayaPicker-dummy.m in Sources */,
+				05B7F59926FF3DDFC3DD808F8C4FD544 /* NepaliIOSSamayaVc.swift in Sources */,
+				A372AAA52C411B3C00CB1C0D /* TypeAlias.swift in Sources */,
+				A372AAA82C411D5700CB1C0D /* DatePickerModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A526BA2E7CFF1BDD7C15BAFFEA2FD123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAB7BD2B108683B96D2576620790C3A /* Pods-NepaliIOSSamayaPicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0B21B8F702A52149652E3CE9FAAAF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862F4B769AEF82D1A88E87B5E4686854 /* Pods-NepaliIOSSamayaPicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FF450E160B56B65C6F91768B54E0A00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NepaliIOSSamayaPicker_Example";
+			target = 54973B5404F8A17786841A92978FC8BF /* Pods-NepaliIOSSamayaPicker_Example */;
+			targetProxy = 499F8188BA95A3F26F2DBB9DD11DC22C /* PBXContainerItemProxy */;
+		};
+		9021498D0648FE79784B98AC00366290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NepaliIOSSamayaPicker;
+			target = EE5DF0033565A77BEAD9DDD42892C838 /* NepaliIOSSamayaPicker */;
+			targetProxy = 7F331DFAB9DB6F85372FEBB9EAEF537B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		092555C28232AD6B5284ACAEA66DE2FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B4FF0825BC4B22A7D98BF83D9DB42C /* NepaliIOSSamayaPicker.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NepaliIOSSamayaPicker/NepaliIOSSamayaPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NepaliIOSSamayaPicker/NepaliIOSSamayaPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NepaliIOSSamayaPicker/NepaliIOSSamayaPicker.modulemap";
+				PRODUCT_MODULE_NAME = NepaliIOSSamayaPicker;
+				PRODUCT_NAME = NepaliIOSSamayaPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		734CC18AC3CB872523A31A07310B66D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D31542C12C966004E5B2F509925907C /* Pods-NepaliIOSSamayaPicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NepaliIOSSamayaPicker_Tests/Pods-NepaliIOSSamayaPicker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NepaliIOSSamayaPicker_Tests/Pods-NepaliIOSSamayaPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77D6EA47FBA2ADCE16934A130B3AAA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8557CE3DB5194B07A22ECCF022469F52 /* Pods-NepaliIOSSamayaPicker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NepaliIOSSamayaPicker_Example/Pods-NepaliIOSSamayaPicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NepaliIOSSamayaPicker_Example/Pods-NepaliIOSSamayaPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		927697A1D8F95C1501E97FB52C5C5A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E7B24BB835DA24AB9099BB750D1743B /* Pods-NepaliIOSSamayaPicker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NepaliIOSSamayaPicker_Example/Pods-NepaliIOSSamayaPicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NepaliIOSSamayaPicker_Example/Pods-NepaliIOSSamayaPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD40B6676204808E3E2EF023924D7E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB42252CD6865059E4C892A50BB6224 /* Pods-NepaliIOSSamayaPicker_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NepaliIOSSamayaPicker_Tests/Pods-NepaliIOSSamayaPicker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NepaliIOSSamayaPicker_Tests/Pods-NepaliIOSSamayaPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FCE8837DE8513D6547BB88976DBF8B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D73C40ED68A569E29B7EAB0D93BC4B03 /* NepaliIOSSamayaPicker.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NepaliIOSSamayaPicker/NepaliIOSSamayaPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NepaliIOSSamayaPicker/NepaliIOSSamayaPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NepaliIOSSamayaPicker/NepaliIOSSamayaPicker.modulemap";
+				PRODUCT_MODULE_NAME = NepaliIOSSamayaPicker;
+				PRODUCT_NAME = NepaliIOSSamayaPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		011214248782517E767A2A0B56D64ECD /* Build configuration list for PBXNativeTarget "Pods-NepaliIOSSamayaPicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927697A1D8F95C1501E97FB52C5C5A98 /* Debug */,
+				77D6EA47FBA2ADCE16934A130B3AAA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C2A993A5D17FC5F7E161519D8012A6F /* Build configuration list for PBXNativeTarget "NepaliIOSSamayaPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE8837DE8513D6547BB88976DBF8B36 /* Debug */,
+				092555C28232AD6B5284ACAEA66DE2FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		613606C19A540D2EB4A5FC429D6B2EBD /* Build configuration list for PBXNativeTarget "Pods-NepaliIOSSamayaPicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734CC18AC3CB872523A31A07310B66D2 /* Debug */,
+				CD40B6676204808E3E2EF023924D7E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
