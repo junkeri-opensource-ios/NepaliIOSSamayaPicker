@@ -13,16 +13,17 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       
+        let pickerView = NepaliDatePickerView()
+        pickerView.backgroundColor = .white
+        view.addSubview(pickerView)
+        pickerView.translatesAutoresizingMaskIntoConstraints = false
         
-        let picker = NepaliIOSSamayaVc()
-        navigationController?.pushViewController(picker, animated: true)
+        NSLayoutConstraint.activate([
+            pickerView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            pickerView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            pickerView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
+            pickerView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.5)
+        ])
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
-

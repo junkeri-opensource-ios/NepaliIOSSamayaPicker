@@ -19,6 +19,8 @@
 		A372AAA82C411D5700CB1C0D /* DatePickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372AAA72C411D5700CB1C0D /* DatePickerModel.swift */; };
 		A372AAAA2C411DE200CB1C0D /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372AAA92C411DE200CB1C0D /* DateExt.swift */; };
 		A372AAAD2C411E7E00CB1C0D /* NepaliDateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372AAAC2C411E7E00CB1C0D /* NepaliDateModel.swift */; };
+		A372AAB02C413FB300CB1C0D /* NepaliDatePickerVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372AAAF2C413FB300CB1C0D /* NepaliDatePickerVc.swift */; };
+		A372AAB32C41426900CB1C0D /* UIAlertControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372AAB22C41426900CB1C0D /* UIAlertControllerExt.swift */; };
 		CE4016AB2062C66B663BADFA061BA7BB /* NepaliIOSSamayaPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 274288BBE1F9DC82DB0C9ED42D0E528B /* NepaliIOSSamayaPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D163F9285E1D371D925A0B3014DF8436 /* NepaliIOSSamayaPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A16C4C99D73A017B003561768A09E6 /* NepaliIOSSamayaPicker-dummy.m */; };
 		F230F7B7D95F011A055541547A4FA105 /* Pods-NepaliIOSSamayaPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CDAAC5973A2621ADA0C72D590580EA /* Pods-NepaliIOSSamayaPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -70,6 +72,8 @@
 		A372AAA72C411D5700CB1C0D /* DatePickerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerModel.swift; sourceTree = "<group>"; };
 		A372AAA92C411DE200CB1C0D /* DateExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
 		A372AAAC2C411E7E00CB1C0D /* NepaliDateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NepaliDateModel.swift; sourceTree = "<group>"; };
+		A372AAAF2C413FB300CB1C0D /* NepaliDatePickerVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NepaliDatePickerVc.swift; sourceTree = "<group>"; };
+		A372AAB22C41426900CB1C0D /* UIAlertControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExt.swift; sourceTree = "<group>"; };
 		A543ED11C6F29A3453AC526BF092C70C /* Pods-NepaliIOSSamayaPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NepaliIOSSamayaPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B31A1AB6FBF2AFE2CF07020E7844D08D /* NepaliIOSSamayaPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NepaliIOSSamayaPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B713033809A27D3AB149AED6774FADB1 /* Pods-NepaliIOSSamayaPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NepaliIOSSamayaPicker_Example-dummy.m"; sourceTree = "<group>"; };
@@ -164,6 +168,8 @@
 		8F15A66ABB2C435854B1FCA07EC3A0F9 /* NepaliIOSSamayaPicker */ = {
 			isa = PBXGroup;
 			children = (
+				A372AAB12C41425C00CB1C0D /* Extensions */,
+				A372AAAE2C413FA400CB1C0D /* Controllers */,
 				A372AAA62C411B9100CB1C0D /* Views */,
 				A372AA9F2C4118F900CB1C0D /* Core */,
 				5F121F4CB287DD109D4F72DA55A145D3 /* NepaliIOSSamayaVc.swift */,
@@ -217,6 +223,22 @@
 				A372AAAC2C411E7E00CB1C0D /* NepaliDateModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A372AAAE2C413FA400CB1C0D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A372AAAF2C413FB300CB1C0D /* NepaliDatePickerVc.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A372AAB12C41425C00CB1C0D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A372AAB22C41426900CB1C0D /* UIAlertControllerExt.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		B3B37C585C018198B1582D1E7ADD7895 /* Pod */ = {
@@ -411,9 +433,11 @@
 			files = (
 				A372AAA12C41191100CB1C0D /* DataSource.swift in Sources */,
 				A372AAA32C41199000CB1C0D /* NepaliDatePickerView.swift in Sources */,
+				A372AAB32C41426900CB1C0D /* UIAlertControllerExt.swift in Sources */,
 				A372AAAD2C411E7E00CB1C0D /* NepaliDateModel.swift in Sources */,
 				A372AAAA2C411DE200CB1C0D /* DateExt.swift in Sources */,
 				D163F9285E1D371D925A0B3014DF8436 /* NepaliIOSSamayaPicker-dummy.m in Sources */,
+				A372AAB02C413FB300CB1C0D /* NepaliDatePickerVc.swift in Sources */,
 				05B7F59926FF3DDFC3DD808F8C4FD544 /* NepaliIOSSamayaVc.swift in Sources */,
 				A372AAA52C411B3C00CB1C0D /* TypeAlias.swift in Sources */,
 				A372AAA82C411D5700CB1C0D /* DatePickerModel.swift in Sources */,
@@ -470,7 +494,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/NepaliIOSSamayaPicker/NepaliIOSSamayaPicker-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/NepaliIOSSamayaPicker/NepaliIOSSamayaPicker-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/NepaliIOSSamayaPicker/NepaliIOSSamayaPicker.modulemap";
 				PRODUCT_MODULE_NAME = NepaliIOSSamayaPicker;
@@ -763,7 +787,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/NepaliIOSSamayaPicker/NepaliIOSSamayaPicker-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/NepaliIOSSamayaPicker/NepaliIOSSamayaPicker-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/NepaliIOSSamayaPicker/NepaliIOSSamayaPicker.modulemap";
 				PRODUCT_MODULE_NAME = NepaliIOSSamayaPicker;

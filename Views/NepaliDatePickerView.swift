@@ -159,52 +159,6 @@ extension NepaliDatePickerView: UIPickerViewDelegate, UIPickerViewDataSource {
         self.action?(selectedDateState.0, selectedDateState.1)
     }
     
-    func BSToADConverter(year: Int, month: Int, day: Int) -> Date? {
-        var engYear = 1943
-        var engMonth = 4
-        var engDay = 14
-        
-        var endDayOfMonth = 0
-        
-        var totalNepDaysCount = 0
-        
-        for i in self.startingNepaliYear..<year {
-            for j in 1...12 {
-                totalNepDaysCount = totalNepDaysCount + monthsInYearDict[i]![j]
-            }
-        }
-        
-        for j in self.startingNepaliMonth..<month {
-            totalNepDaysCount = totalNepDaysCount + monthsInYearDict[year]![j]
-        }
-        
-        totalNepDaysCount = totalNepDaysCount + (day - self.startingNepaliDay)
-        
-        while totalNepDaysCount != 0 {
-            if (isLeapYear(year: engYear)) {
-                endDayOfMonth = self.daysInMonthOfLeapYear[engMonth]
-            } else {
-                endDayOfMonth = self.daysInMonth[engMonth]
-            }
-            engDay = engDay + 1
-            if engDay > endDayOfMonth {
-                engMonth = engMonth + 1
-                engDay = 1
-                if engMonth > 12 {
-                    engYear = engYear + 1
-                    engMonth = 1
-                }
-            }
-            totalNepDaysCount = totalNepDaysCount - 1
-        }
-        return Calendar.current.date(from: DateComponents(year: engYear, month: engMonth, day: engDay))
-    }
-    
-    func isLeapYear(year: Int) -> Bool {
-        let isLeapYear = ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0))
-        return isLeapYear
-    }
-    
     public func getNumber(number: Int) -> String {
         
         let numberStr = "\(number)"
